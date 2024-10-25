@@ -1,19 +1,5 @@
-# Ignore everything
-*
-
-# Except for the 'src' folder
-!src/
-
-# Except for 'pom.xml'
-!pom.xml
-
-# Except for the database file
-!db_ef_sirvas.sql
-
-# Ignore all files within target folder
-target/
-
-# Ignore Eclipse files
-.project
 .classpath
+.mvn/
+.project
 .settings/
+/target/
