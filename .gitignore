@@ -1,33 +1,19 @@
-HELP.md
+# Ignore everything
+*
+
+# Except for the 'src' folder
+!src/
+
+# Except for 'pom.xml'
+!pom.xml
+
+# Except for the database file
+!db_ef_sirvas.sql
+
+# Ignore all files within target folder
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
+# Ignore Eclipse files
 .project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
+.classpath
+.settings/
